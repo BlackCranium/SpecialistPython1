@@ -15,7 +15,15 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+x1 = int(input("Слон X [1..8]: "))
+y1 = int(input("Слон Y [1..8]: "))
+x2 = int(input("Фигура X [1..8]: "))
+y2 = int(input("Фигура Y [1..8]: "))
+
+if abs(x2 - x1) == abs(y2 - y1):
+    print("Да")
+else:
+    print("Нет")
 ```
 
 ---
