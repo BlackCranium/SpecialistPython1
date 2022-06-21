@@ -15,7 +15,11 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+num = int(input("N: "))
+if (num > 99 | num < 1000) or (num < -99 | num > -1000):
+    print("ДА")
+else:
+    print("Нет")
 ```
 
 ---
