@@ -16,7 +16,17 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input("n: "))
+n0, n1 = 0, 1
+i, f = 1, 1
+if n == 1:
+    print(0)
+else:
+    while i < n:
+        i += 1
+        f = n0 + n1
+        n0, n1 = n1, f
+print("Число Фибоначчи с номером", i, ":", f)
 ```
 
 ### Данные для самопроверки
