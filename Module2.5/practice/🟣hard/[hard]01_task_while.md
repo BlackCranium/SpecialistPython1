@@ -20,7 +20,7 @@ n = int(input("n: "))
 n0, n1 = 0, 1
 i, f = 1, 1
 if n == 1:
-    print(0)
+    print("Число Фибоначчи с номером 1 : 0")
 else:
     while i < n:
         i += 1
