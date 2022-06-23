@@ -17,7 +17,23 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n0 = 300
+n1=1
+while n1<n0:
+  n2=n1+1
+  while n2<n0:
+    x = 1
+    sum1 = sum2 = 0
+    while x<=n2/2 and (sum1 < n2 or sum2 < n1):
+      if n1 % x == 0:
+        sum1 += x
+      if n2 % x == 0:
+        sum2 += x
+      x += 1
+    if sum1 == n2 and sum2 == n1:
+      print(n1, n2)
+    n2 += 1
+  n1 += 1
 ```
 
 ---
