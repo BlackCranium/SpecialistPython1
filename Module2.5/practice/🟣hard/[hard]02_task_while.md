@@ -32,5 +32,17 @@ n = 3
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = 9 # длина стороны квадрата. 1<n<20
+i=0
+while i<n:
+  j=0
+  s=""
+  while j<n:
+    if i==j or j==n-i-1:
+      s+="#"
+    else:
+      s+=str(" ")
+    j+=1
+  print(s)
+  i+=1
 ```
