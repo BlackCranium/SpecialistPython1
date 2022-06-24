@@ -15,7 +15,17 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+if len(s2)>len(s1):
+    print("Нет")
+else:
+    i=0
+    while i<len(s2):
+        if s2[i].count(s2) != s2[i].count(s1):
+            print("Нет")
+            break
+        i+=1
+    if i==len(s2):
+        print("Да")
 ```
 
 ---
