@@ -16,7 +16,14 @@
 
 ```python
 text = "Lorem ipsum dolor sit amet consectetur adipiscing elit Integer porttitor bibendum nisi ut convallis ante"
-# TODO: you code here...
+wrds = text.split()
+i = 0
+count = 0
+while i < len(wrds):
+    if len(wrds[i]) > 5:
+        count += 1
+    i += 1
+print(count)
 ```
 
 ---
